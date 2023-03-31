@@ -1,5 +1,5 @@
  **Melih Divan**
-  - Computer Engineering Student
+  - Computer Engineering Student.
 
 [![](https://github-readme-stats.vercel.app/api?username=melihdvn&hide=contribs,stars,prs,issues&count_private=true&theme=transparent&show_icons=true)](https://github.com/melihdvn)
 
