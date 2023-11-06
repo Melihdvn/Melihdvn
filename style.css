@@ -13,34 +13,29 @@ body {
     font-size: 24px;
 }
 
-.nav-menu {
-    list-style-type: none;
-    text-align: center;
-    padding: 10px;
-}
-
-.nav-menu li {
-    display: inline;
-    margin-right: 20px;
-}
-
-.nav-menu a {
-    text-decoration: none;
-    color: #333;
-    font-size: 18px;
-}
-
 .section-title {
     font-size: 20px;
     text-align: center;
 }
 
-.about-section, .projects-section, .contact-section {
+.projects-section {
     margin: 20px;
     padding: 20px;
     background-color: #fff;
     border: 1px solid #ccc;
     border-radius: 5px;
+    transform: translateY(-100%);
+    transition: transform 0.5s;
+}
+
+.contact-section {
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transform: translateX(100%);
+    transition: transform 0.5s;
 }
 
 .project-list {
