@@ -1,48 +1,56 @@
-/* Sayfa stilini sıfırlayalım (reset) */
-body, h1, h2, p, ul, li {
-    margin: 0;
-    padding: 0;
-}
-
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f5f5f5;
     margin: 0;
     padding: 0;
 }
 
-header {
+.header-title {
     background-color: #333;
     color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 24px;
+}
+
+.nav-menu {
+    list-style-type: none;
     text-align: center;
     padding: 10px;
 }
 
-nav ul {
-    list-style-type: none;
-}
-
-nav ul li {
+.nav-menu li {
     display: inline;
     margin-right: 20px;
 }
 
-nav a {
+.nav-menu a {
     text-decoration: none;
     color: #333;
+    font-size: 18px;
 }
 
-section {
+.section-title {
+    font-size: 20px;
+    text-align: center;
+}
+
+.about-section, .projects-section, .contact-section {
     margin: 20px;
-    padding: 10px;
+    padding: 20px;
     background-color: #fff;
     border: 1px solid #ccc;
     border-radius: 5px;
 }
 
-footer {
+.project-list {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.footer {
     text-align: center;
     background-color: #333;
     color: #fff;
-    padding: 5px;
+    padding: 10px 0;
 }
